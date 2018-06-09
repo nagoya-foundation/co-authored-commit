@@ -21,8 +21,10 @@ After the installation step, you are able to perform the following command:
 ```
 $ git co-commit -m "Commit message" --co "co-author <co-author-email>"
 ```
-The `-m` flag is the commit message flag, the same as the `git commit` command
+The `-m` flag is the commit message flag, the same as the `git commit` command.
+
 The `--co` flag is passed to inform both co-author name and email. If one chooses to keep their email private, use `<no-reply>` instead.
+
 It is possible to pass multiple `--co` flags.
 
 ## Limitations
