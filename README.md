@@ -2,6 +2,8 @@
 
 GitHub provides a mechanism to create [commits with multiple authors](https://help.github.com/articles/creating-a-commit-with-multiple-authors/), which are visible on GitHub interface. However, git does not have a built-in command to execute this action easily. This project comes up with a [Git Alias](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases) in order to create Co-authored commits using the command line.
 
+image space
+
 ## Installation
 
 Add alias located at the [config file](config) to the bottom of one of the following [git configuration file](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup):
