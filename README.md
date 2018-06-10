@@ -4,9 +4,10 @@ GitHub provides a mechanism to create [commits with multiple authors](https://he
 
 ## Installation
 
-Copy the alias located at the [config](config) file to your [git configuration file](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup):
-* For system scope: `/etc/gitconfig`
+Add alias located at the [config file](config) to the bottom of one of the following [git configuration file](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup):
+
 * For global scope: `~/.gitconfig` or `~/.config/git/config`
+* For system scope: `/etc/gitconfig`
 * For project scope: `.git/config`
 
 ```
