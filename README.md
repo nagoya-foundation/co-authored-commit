@@ -10,13 +10,13 @@ If you pass the email in `--co` flag both will be authors, otherwise only the pe
 
 You can see the first commit [here](https://github.com/nagoya-foundation/r-functions-performance/commit/457e8c18aedbe2d8b54f0965da9d739d118d82e8) and the second [here](https://github.com/nagoya-foundation/co-authored-commit/commit/d11862fb4b7ff5f1b9f4fa1cc0f5aec807f853b3).
 
-## Installation
+## Install
 
 Add alias located at the [config file](config) to the bottom of one of the following [git configuration file](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup):
 
-* For global scope: `~/.gitconfig` or `~/.config/git/config`
-* For system scope: `/etc/gitconfig`
-* For project scope: `.git/config`
+* For global scope  : `~/.gitconfig` or `~/.config/git/config`
+* For system scope  : `/etc/gitconfig`
+* For project scope : `.git/config`
 
 ```
 [alias]
@@ -36,6 +36,16 @@ The `--co` flag is passed to inform both co-author name and email. If one choose
 
 It is possible to pass multiple `--co` flags.
 
+## Example
+
+```
+$ git co-commit -m "this is my commit message" --co "username <username@email.com>"
+```
+
 ## Limitations
 
 For now, it is mandatory to pass the the git commit message flag.
+
+## License
+
+This repository is licensed under [GPL-3.0](LICENSE)
